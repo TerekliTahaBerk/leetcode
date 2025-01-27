@@ -1,6 +1,6 @@
 # LeetCode Problem Solutions
 
-This repository features my solutions to various LeetCode problems, reflecting my journey in mastering algorithms and data structures. It serves as a demonstration of my problem-solving skills, dedication to continuous learning, and ability to apply computational thinking to diverse challenges in software engineering.
+This repository features my solutions to various [LeetCode](https://leetcode.com/u/tterekli9/) problems, reflecting my journey in mastering algorithms and data structures. It serves as a demonstration of my problem-solving skills, dedication to continuous learning, and ability to apply computational thinking to diverse challenges in software engineering.
 
 All solutions are organized for clarity and accessibility, ensuring ease of reference for those seeking to learn or refine their approach to similar problems.
 
