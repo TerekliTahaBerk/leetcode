@@ -16,6 +16,15 @@ Each solution includes:
 - **Comments:** Detailed explanations for clarity.
 - **Complexity Analysis:** Focused on time and space efficiency.
 
+## Problem Solutions Overview
+
+| Problem Title | Difficulty | Language |                
+|-----------------------------------------------|------------|------------|
+| [Two Sum](https://github.com/TerekliTahaBerk/leetcode/tree/main/001.%20Two%20Sum) | Easy | Python | 
+
+
+*Feel free to explore the solutions using the links provided above.*
+
 ##  How to Use
 
 1. Clone the repository to your local machine:
