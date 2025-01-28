@@ -54,8 +54,8 @@ class Solution:
 ```
 
 ## Explanation of the Code:
-	ListNode Class: Defines the structure of a node in the linked list.
-	mergeTwoLists Method:
+1. ListNode Class: Defines the structure of a node in the linked list.
+2. mergeTwoLists Method:
 	-	A dummy node is created to facilitate the merging process.
 	-	A while loop runs as long as both lists have nodes. It compares the values of the current nodes from both lists and appends the smaller one to the merged list.
 	-	After the loop, if any nodes remain in either list, they are appended directly to the merged list.
