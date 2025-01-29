@@ -55,6 +55,6 @@ The code iterates through each character in the string s. For each character:
 After processing all characters, it joins the rows together into a single string and returns it.
 
 
-Conclusion
+## Conclusion
 The zigzag conversion algorithm effectively rearranges a string into a visually appealing format across a specified number of rows. This code is a practical example of how to manipulate strings and manage data structures in Python. It showcases the elegance of Python’s syntax and the power of simple control flow to achieve complex formatting tasks. This solution can be easily integrated into larger applications or used as a standalone utility for string formatting.
 
