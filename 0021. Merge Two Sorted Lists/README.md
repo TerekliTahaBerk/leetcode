@@ -61,7 +61,6 @@ class Solution:
 	-	After the loop, if any nodes remain in either list, they are appended directly to the merged list.
 	-	Finally, the method returns the merged list starting from the node after the dummy.
 
-Conclusion
-
+## Conclusion
 The provided code effectively merges two sorted linked lists into a single sorted linked list using a straightforward iterative approach. By utilizing a dummy node, the implementation simplifies the handling of edge cases, such as when one list is exhausted before the other. This method is efficient and maintains the sorted order of the elements, making it a valuable solution for problems involving linked lists.
 
