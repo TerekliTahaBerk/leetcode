@@ -1,28 +1,21 @@
 class Solution:
-    def divide(self, dividend: int, divisor: int) -> int:
-        # 32-bit sınırlarını tanımlayalım
-        INT_MAX = 2**31 - 1  # 2147483647
-        INT_MIN = -2**31     # -2147483648
+    def multiply(self, num1: str, num2: str) -> str:
+        if num1 == "0" or num2 == "0":
+            return "0"
+
+        m, n = len(num1), len(num2)
+        result = [0] * (m + n)
+
+        for i in range(m - 1, -1, -1):
+            for j in range(n - 1, -1, -1):
+                mul = (ord(num1[i]) - ord('0')) * (ord(num2[j]) - ord('0'))
+                pos1, pos2 = i + j, i + j + 1
+
+                total = mul + result[pos2]
+                result[pos2] = total % 10
+                result[pos1] += total // 10
         
-        # İşareti belirle (negatif olup olmadığını kontrol et)
-        negative = (dividend < 0) ^ (divisor < 0)
+        while result and result[0] == 0:
+            result.pop(0)
         
-        # Mutlak değerleri al
-        dividend, divisor = abs(dividend), abs(divisor)
-        
-        quotient = 0  # Bölme sonucu
-        
-        while dividend >= divisor:
-            temp, multiple = divisor, 1
-            while dividend >= (temp << 1):
-                temp <<= 1
-                multiple <<= 1
-            
-            dividend -= temp
-            quotient += multiple
-        
-        # İşareti uygula
-        quotient = -quotient if negative else quotient
-        
-        # 32-bit sınırlarını uygula
-        return max(min(quotient, INT_MAX), INT_MIN)
+        return ''.join(map(str, result))
