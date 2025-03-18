@@ -6,15 +6,13 @@ All solutions are organized for clarity and accessibility, ensuring ease of refe
 
 ## Repository Structure
 
-The problems are organized into folders by **topic** and **difficulty** for ease of navigation:
-
-- **Topics:** Arrays, Strings, Dynamic Programming, Graphs, Trees, etc.
-- **Difficulty Levels:** Easy, Medium, Hard
-
-Each solution includes:
-- **Code Implementation:** Written in Python.
-- **Comments:** Detailed explanations for clarity.
-- **Complexity Analysis:** Focused on time and space efficiency.
+The problems are organized within the **LeetCode Solutions** folder in a structured format:
+  - Each SQL problem has its dedicated folder, named after the problem.
+  - Problems are categorized by difficulty: **Easy**, **Medium**, or **Hard**.
+  - Each folder contains an SQL script with:
+    - **Query Implementation:** Optimized SQL solution for the problem.
+    - **Explanation:** Detailed comments explaining the approach.
+    - **Performance Considerations:** Notes on query efficiency and indexing.
 
 ## Problem Solutions Overview
 
@@ -29,6 +27,9 @@ Each solution includes:
 | [0043. Multiply Strings](https://github.com/TerekliTahaBerk/leetcode/tree/main/0043.%20Multiply%20Strings) | Medium | Python |
 | [0048. Rotate Image](https://github.com/TerekliTahaBerk/leetcode/tree/main/0048.%20Rotate%20Image) | Medium | Python |
 | [0050. Pow(x, n)](https://github.com/TerekliTahaBerk/leetcode/tree/main/0050.%20Pow(x%2C%20n)) | Medium | Python |
+| ... | ... | ... |
+
+More solutions will be continuously added as I progress.
 
 *Feel free to explore the solutions using the links provided above.*
 
